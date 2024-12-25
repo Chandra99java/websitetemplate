@@ -1,0 +1,85 @@
+body {
+   font-family: Arial, sans-serif;
+   background-color: whitesmoke;
+   display: inline-block;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin-top: 10px;
+   margin-left: 250px;
+ }
+ 
+ .profile-card {
+   width: 300px;
+   background: white;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   overflow: hidden;
+   text-align: center;
+ }
+ 
+ .card-header .profile-img {
+   width: 100%;
+   height: 200px;
+   object-fit:fill;
+ }
+ 
+ .card-body {
+   padding: -100px;
+ }
+ 
+ .card-body h2 {
+   margin: 0;
+   color: #333;
+ }
+ 
+ .job-title {
+   color: #777;
+   font-size: 14px;
+   margin: 5px 0;
+   text-align: center;
+   justify-content: center;
+ }
+ 
+ .bio {
+   font-size: 14px;
+   color: #555;
+   margin: 10px 0 20px;
+ }
+ 
+ .social-links {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+ }
+ 
+ .social-link {
+   text-decoration: none;
+   color: pink;
+   font-size: 14px;
+   padding: 5px 10px;
+   border: 1px solid white;
+   border-radius: 10px;
+ }
+ .social{
+  text-decoration: none;
+   color: #007bff;
+   font-size: 14px;
+   padding: 5px 10px;
+   border: 1px solid white;
+   border-radius: 10px;
+ }
+ 
+ .social-link:hover {
+   text-decoration:none;
+   text-align: justify;
+   background-color: pink;
+   color: white;
+ }
+ .social:hover{
+  text-decoration:none;
+  text-align: justify;
+  background-color: #007bff;
+  color: white;
+}
+ 

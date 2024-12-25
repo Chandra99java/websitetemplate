@@ -1,0 +1,162 @@
+
+.header{
+    border: 1px solid black;
+    height: 50px;
+    width: 100%;
+    background-color: #E3E3BA;
+    position: relative;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style-type: none;
+}
+li a{
+    position: relative;
+    bottom: 53px;
+    
+    text-decoration: none;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 13px;
+    
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    justify-content: center;
+    
+   
+}
+.loc{
+    position: relative;
+   bottom: 8px;
+}
+.searchbar{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    left: 20px;
+}
+.alogo{
+    position: relative;
+    bottom: 5px;
+}
+li a:hover{
+    background-color: #0594B4;
+    border-radius: 10px;
+
+}
+
+    .profilecard{
+        display: flex;
+        flex-wrap: nowrap;
+        border: 1px solid white;
+        border-radius: 30px;
+        height: 300px;
+        width: 100%;
+        text-align: center;
+        
+        
+    }
+.first{
+    border: 1px solid rgb(15, 14, 14);
+    border-radius: 30px;
+    width: 31%;
+    height: 300px;
+    background-color: #DCD2D2;
+    position: relative;
+    left: 15px;
+    
+   
+}
+.second{
+    position: relative;
+    left: 30px;
+    border: 1px solid rgb(15, 14, 14);
+    border-radius: 30px;
+    width: 31%;
+    height: 300px;
+   
+    background-color: #EA79B5;
+   
+}
+.third{
+    position: relative;
+    left: 45px;
+    border: 1px solid rgb(15, 14, 14);
+    border-radius: 30px;
+    width: 31%;
+    height: 300px;
+    
+    background-color: #7F7CD7;
+}
+.xlogo{
+    padding: 4px;
+    height: 30px;
+    width: 50px;
+    justify-content: center;
+    text-align: center;
+    
+}
+.locicon{
+    
+    height: 20px;
+    width: 30px;
+    padding-right: 0px;
+    padding-top: 0px;
+    
+}
+.facelogo{
+    padding: 4px;
+    height: 30px;
+    width: 50px;
+    justify-content: center;
+    text-align: center;
+    
+}
+.instalogo{
+    padding: 4px;
+    height: 30px;
+    width: 50px;
+    justify-content: center;
+    text-align: center;
+   
+}
+.follow{
+    text-align: center;
+    font-size: larger;
+    font-family: cursive;
+    
+}
+.fallupdetails{
+    
+   
+    text-align: center;
+}
+.follow:hover{
+    background-color: aliceblue;
+    border-radius: 10px;
+
+}
+.butt{
+    text-decoration: none;
+    border-radius: 10px;
+   
+}
+.butt:hover{
+    background-color: #7F7CD7;
+}
+.gg{
+    height: 20px;
+    width: 30px;
+}
+
+
+.ggk{
+    position: relative;
+    top: 5px;
+    height: 20px;
+    width: 30px;
+    background-color: white;  
+}

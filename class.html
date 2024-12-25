@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample</title>
+    <style>
+        div form{
+            border: 2px;color: black;
+            text-align: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(download.jpg); height: 30%;width: 60%;
+            background-position: 60%;
+            margin-left: 130px;
+            
+        }
+        div h1{
+            text-align: center;
+        }
+    </style>
+    
+</head>
+<body>
+    <div >
+        <h1>This is form </h1>
+        <form action="" >
+            <label for="name">Name:</label>
+            <input type="text" id="name"  required  placeholder="chandra" pattern="a-zA-Z {6}"><br><br>
+            <label for="no">Ph No:</label>
+            <input type="tel" id="no" required placeholder="8317583605" pattern="[6-9]{1}[0-9  ]{9}"><br><br>
+            <label for="dob">DOB:</label>
+            <input type="date" id="dob" required placeholder="02/06/1999" ><br><br>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" required placeholder="chandupirla@gmail.com" pattern="@gmail.com"><br><br>
+            <label for="">Gender:</label>
+            <input type="radio" id="m" required name="Gender" >
+            <label for="m">Male</label>
+            <input type="radio" id="f" required name="Gender">
+            <label for="f">Female</label>
+             <input type="radio" id="o" required name="Gender" >
+            <label for="o">Others</label><br><br>
+            <input type="submit">
+            
+        </form>
+    </div>
+    
+</body>
+</html>
